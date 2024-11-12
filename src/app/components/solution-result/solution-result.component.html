@@ -1,0 +1,17 @@
+<!-- solution-result.component.html -->
+<div *ngIf="solution">
+  <h3>{{ solution.descricao }}</h3>
+  <p><strong>Palavra-chave:</strong> {{ solution.palavra_chave }}</p>
+  <p><strong>Causas:</strong></p>
+  <ul>
+    <li *ngFor="let causa of solution.causas">{{ causa }}</li>
+  </ul>
+  <p><strong>Problemas relacionados:</strong></p>
+  <ul>
+    <li *ngFor="let problema of solution.problema">{{ problema }}</li>
+  </ul>
+  <p><strong>Soluções sugeridas:</strong></p>
+  <ul>
+    <li *ngFor="let solucoes of solution.solucoes">{{ solucoes }}</li>
+  </ul>
+</div>

@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+/* Configurações globais */
+body {
+    background-color: #F8F9FA; /* Cor de fundo suave para a página */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1 {
+    color: #2C3B48; /* Cor do título */
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+  }
+  
+  /* Links de navegação */
+  nav a {
+    font-size: 1.1em;
+    color: #2C3B48;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  nav a:hover {
+    color: #007bff; /* Cor ao passar o mouse */
+  }
+  
+  nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Definição de link de navegação */
+  .nav-link {
+    color: #2C3B48;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  

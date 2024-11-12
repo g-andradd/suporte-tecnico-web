@@ -1,0 +1,80 @@
+/* Layout para o resultado da solução */
+.solution-result {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Estilo para título da solução */
+.solution-title {
+  color: #2C3B48;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para descrição */
+.solution-description {
+  color: #2C3B48;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Estilo para seção de detalhes */
+.solution-section-title {
+  color: #2E94F9;
+  font-size: 1.3em;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Estilo para listas de causas e soluções */
+.solution-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.solution-list-item {
+  color: #333;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+/* Estilo para termos relacionados */
+.related-terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.related-term-item {
+  background-color: #e0e0e0;
+  color: #2C3B48;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Estilo para botão de ação (se houver) */
+.solution-action-button {
+  background-color: #2E94F9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.solution-action-button:hover {
+  background-color: #1f74d1;
+}
+
+.solution-action-button:active {
+  background-color: #1f74d1;
+}

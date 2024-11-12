@@ -1,0 +1,27 @@
+<div class="support-center">
+    <h2>Central de Suporte Técnico</h2>
+  
+    <form (ngSubmit)="onSubmit()" class="support-form">
+      <label for="problemDescription">Descreva o problema:</label>
+      <textarea
+        id="problemDescription"
+        [(ngModel)]="problemDescription"
+        name="problemDescription"
+        rows="4"
+        placeholder="Descreva seu problema aqui..."
+        required
+      ></textarea>
+      <button type="submit" [disabled]="isLoading || !problemDescription">Buscar Solução</button>
+    </form>
+  
+    <div *ngIf="isLoading" class="loading">
+      Carregando solução...
+    </div>
+  
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+  
+    <app-solution-result *ngIf="solutionResponse" [solution]="solutionResponse"></app-solution-result>
+  </div>
+  

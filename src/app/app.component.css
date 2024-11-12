@@ -1,0 +1,22 @@
+/* Estilo para o container principal */
+.app-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Ajustes de responsividade */
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    nav {
+      font-size: 1em;
+    }
+  }
+  
